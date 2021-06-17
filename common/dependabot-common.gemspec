@@ -44,7 +44,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec-its", "~> 1.2"
   spec.add_development_dependency "rubocop", "~> 1.6.0"
   spec.add_development_dependency "simplecov", "~> 0.20.0"
-  spec.add_development_dependency "simplecov-console", "~> 0.8.0"
+  spec.add_development_dependency "simplecov-console", "~> 0.9.1"
   spec.add_development_dependency "vcr", "6.0.0"
   spec.add_development_dependency "webmock", "~> 3.4"
 
