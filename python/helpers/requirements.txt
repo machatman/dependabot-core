@@ -2,10 +2,11 @@ pip==20.3.3
 pip-tools==5.4.0
 flake8==3.8.4
 hashin==0.15.0
-pipenv==2018.11.26
+pipenv==2022.1.8
 pipfile==0.0.2
-poetry==1.1.4
+poetry==1.1.9
 wheel==0.36.2
 
 # Some dependencies will only install if Cython is present
 Cython==0.29.21
+poetry-core>=1.1.0a7 # not directly required, pinned by Snyk to avoid a vulnerability
