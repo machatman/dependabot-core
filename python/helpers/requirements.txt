@@ -9,3 +9,4 @@ wheel==0.36.2
 
 # Some dependencies will only install if Cython is present
 Cython==0.29.21
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
